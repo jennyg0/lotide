@@ -12,3 +12,5 @@ const takeUntil = function(array, callback) {
   } 
   return output
 };
+
+module.exports = takeUntil;

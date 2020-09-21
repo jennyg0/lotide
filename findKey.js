@@ -1,3 +1,5 @@
+const findKeyByValue = require("./findKeyByValue");
+
 const findKey = function(obj, callback) {
   for (let key in obj) {
     if (callback(obj[key])) {
@@ -5,3 +7,5 @@ const findKey = function(obj, callback) {
     }  
   } 
 };
+
+module.exports = findKey;
